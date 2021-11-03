@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1, maximum-scale=1.2" >
+	<title>Food Car</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+	 <!-- =======jQuery載入========================================= -->
+    <script src="js/jquery.min.js"></script>
+	<link rel="stylesheet" href="css/cart_style.css">
+</head>
+<body>
+	<div class="wrapper">
+
+		<div class="main_bg"></div>
+
+		<!-- Start header -->
+		<div class="space"></div>
+
+		<div class="header">
+			<div class="title">點餐清單</div>
+			<a class="menu_href" href="restaurant_menu.html" >
+			<div class="cart_arrow" style="background-image: url(img/cart_arrow.png);"></div>
+			</a>
+		</div>
+		<!-- End header -->
+
+		<!-- Start locat -->
+		<div class="locat">
+			<div class="container">
+				<div class="row locat_goal">
+					<div class=" locat_title">取餐地點</div>
+					<div class=" locat_detail">運送地點為美食車特約外送站點</div>
+					<div class="col-12 dropdown">
+					  <button class="dropdown-toggle" type="button">智邦Ａ站</button>
+					  <!-- <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+					  	<a class="dropdown-item" href="#">智邦Ａ站</a>
+					    <a class="dropdown-item" href="#">智邦Ｂ站</a>
+				        <a class="dropdown-item" href="#">智邦Ｃ站</a>
+					  </div> -->
+					</div>
+					<!-- <div class="col-2 locat_button"> <img class="map_pin" src="img/map-pin.png" alt=""></div> -->
+				</div>
+				<div class="row arrive_time">
+					<div class="col-12 ">預計取餐時間 <div class="time_style">12:00 ~ 12:30</div></div>
+					<div class="col-12 locat_detail">預計取餐時間依美食車特約外送站點有所不同</div>
+					
+				</div>
+			</div>
+		</div>
+
+		<!-- End locat -->
+
+
+		<!-- Start list -->
+		<div class="restInfo">
+			<div id="restInfo_name">誠記越南麵食館</div>
+		</div>
+		<div class="cart_list">
+			<div class="container">
+				<div class="row dish">
+					
+					<div class="dish_info col-9">
+						<div class="dish_name" >餐點名稱很長很長很長很長很長很長很長很長很長</div>
+						<div class="dish_money" >$ 135</div>
+						<table class="dish_quantity">
+						  <tr>
+						    <td id="quantity1">X 1</td>
+						    <td id="quantity2">$ 135</td>
+						  </tr>
+						</table>
+					</div>
+					<div class="col-3">
+						<div class="dish_delete">
+							<div class="delete_icon" style="background-image: url(img/trash-2.png);"></div>
+						</div>
+					</div>
+				</div>
+				<div class="row dish">
+					
+					<div class="dish_info col-9">
+						<div class="dish_name" >餐點名稱稍長稍長稍長</div>
+						<div class="dish_money" >$ 135</div>
+						<table class="dish_quantity">
+						  <tr>
+						    <td id="quantity1">X 1</td>
+						    <td id="quantity2">$ 135</td>
+						  </tr>
+						</table>
+					</div>
+					<div class="col-3">
+						<div class="dish_delete">
+							<div class="delete_icon" style="background-image: url(img/trash-2.png);"></div>
+						</div>
+					</div>
+				</div>
+				<div class="row dish">
+					
+					<div class="dish_info col-9">
+						<div class="dish_name" >茉莉奶綠芋圓</div>
+						<div class="dish_money" >$ 135</div>
+						<div class="dish_require" >微糖</div>
+						<div class="dish_require" >微冰</div>
+						<div class="dish_require" >加珍珠 +$5</div>
+						<table class="dish_quantity">
+						  <tr>
+						    <td id="quantity1">X 1</td>
+						    <td id="quantity2">$ 135</td>
+						  </tr>
+						</table>
+						
+					</div>
+					<div class="col-3">
+						<div class="dish_delete">
+							<div class="delete_icon" style="background-image: url(img/trash-2.png);"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="restInfo">
+			<div id="restInfo_name">香香炒飯</div>
+		</div>
+		<div class="cart_list">
+			<div class="container">
+				<div class="row dish">
+					
+					<div class="dish_info col-9">
+						<div class="dish_name" >餐點名稱很長很長很長很長很長很長很長很長很長</div>
+						<div class="dish_money" >$ 135</div>
+						<table class="dish_quantity">
+						  <tr>
+						    <td id="quantity1">X 1</td>
+						    <td id="quantity2">$ 135</td>
+						  </tr>
+						</table>
+					</div>
+					<div class="col-3">
+						<div class="dish_delete">
+							<div class="delete_icon" style="background-image: url(img/trash-2.png);"></div>
+						</div>
+					</div>
+				</div>
+				<div class="row dish">
+					
+					<div class="dish_info col-9">
+						<div class="dish_name" >餐點名稱稍長稍長稍長</div>
+						<div class="dish_money" >$ 135</div>
+						<table class="dish_quantity">
+						  <tr>
+						    <td id="quantity1">X 1</td>
+						    <td id="quantity2">$ 135</td>
+						  </tr>
+						</table>
+					</div>
+					<div class="col-3">
+						<div class="dish_delete">
+							<div class="delete_icon" style="background-image: url(img/trash-2.png);"></div>
+						</div>
+					</div>
+				</div>
+				<div class="row dish">
+					
+					<div class="dish_info col-9">
+						<div class="dish_name" >茉莉奶綠芋圓</div>
+						<div class="dish_money" >$ 135</div>
+						<div class="dish_require" >微糖</div>
+						<div class="dish_require" >微冰</div>
+						<div class="dish_require" >加珍珠 +$5</div>
+						<table class="dish_quantity">
+						  <tr>
+						    <td id="quantity1">X 1</td>
+						    <td id="quantity2">$ 135</td>
+						  </tr>
+						</table>
+						
+					</div>
+					<div class="col-3">
+						<div class="dish_delete">
+							<div class="delete_icon" style="background-image: url(img/trash-2.png);"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="restInfo">
+			<div id="restInfo_name">臭臭炒麵</div>
+		</div>
+		<div class="cart_list">
+			<div class="container">
+				<div class="row dish">
+					
+					<div class="dish_info col-9">
+						<div class="dish_name" >餐點名稱很長很長很長很長很長很長很長很長很長</div>
+						<div class="dish_money" >$ 135</div>
+						<table class="dish_quantity">
+						  <tr>
+						    <td id="quantity1">X 1</td>
+						    <td id="quantity2">$ 135</td>
+						  </tr>
+						</table>
+					</div>
+					<div class="col-3">
+						<div class="dish_delete">
+							<div class="delete_icon" style="background-image: url(img/trash-2.png);"></div>
+						</div>
+					</div>
+				</div>
+				<div class="row dish">
+					
+					<div class="dish_info col-9">
+						<div class="dish_name" >餐點名稱稍長稍長稍長</div>
+						<div class="dish_money" >$ 135</div>
+						<table class="dish_quantity">
+						  <tr>
+						    <td id="quantity1">X 1</td>
+						    <td id="quantity2">$ 135</td>
+						  </tr>
+						</table>
+					</div>
+					<div class="col-3">
+						<div class="dish_delete">
+							<div class="delete_icon" style="background-image: url(img/trash-2.png);"></div>
+						</div>
+					</div>
+				</div>
+				<div class="row dish">
+					
+					<div class="dish_info col-9">
+						<div class="dish_name" >茉莉奶綠芋圓</div>
+						<div class="dish_money" >$ 135</div>
+						<div class="dish_require" >微糖</div>
+						<div class="dish_require" >微冰</div>
+						<div class="dish_require" >加珍珠 +$5</div>
+						<table class="dish_quantity">
+						  <tr>
+						    <td id="quantity1">X 1</td>
+						    <td id="quantity2">$ 135</td>
+						  </tr>
+						</table>
+						
+					</div>
+					<div class="col-3">
+						<div class="dish_delete">
+							<div class="delete_icon" style="background-image: url(img/trash-2.png);"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End list -->
+
+		
+		<div class="space2"></div>
+		<!-- Start footer -->
+		<div class="footer">
+			<a href="payment.html" style="text-decoration:none">
+				<div class="goPay" >去結帳 <img class="arrow_right" src="img/arrow-right.png" alt=""></div>
+			</a>
+			<div class="calc_total">
+				<div class="total_priceTitle">總計</div>
+				<div class="total_price2">$ 1486</div>
+			</div>
+			</a>
+		</div>
+		<!-- End footer -->
+	</div>
+
+</body>
+<script src="js/bootstrap.bundle.min.js" type="text/javascript" ></script>
+</html>

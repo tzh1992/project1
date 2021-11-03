@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1, maximum-scale=1.2" >
+	<title>Food Car</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+	 <!-- =======jQuery載入========================================= -->
+    <script src="js/jquery.min.js"></script>
+	<link rel="stylesheet" href="css/menu_style.css">
+</head>
+<body>
+	<div class="wrapper">
+
+		<div class="main_bg"></div>
+
+		<!-- Start header -->
+		<div class="banner" style="background-image: url(img/restaurant_banner.png);">
+			<!-- <img src="img/banner_FD.png" alt=""> -->
+			<div class="header_title">
+				<div class="page_title">點餐</div>
+				<div class="close_box">
+					<a href="index_foodcar.html" style="text-decoration:none">
+						<div class="close">
+							<div class="close_bar bar1"></div>
+							<div class="close_bar bar2"></div>
+						</div>
+					</a>
+				</div>
+			</div>
+
+		</div>
+		<div class="main_info">
+			<div class="restInfo">
+				<div id="restInfo_name">香香炒飯香香炒飯香香炒飯香香炒飯香香炒飯香香炒飯香香炒飯香香炒飯</div>
+				<table id="info_content">
+				  <tr>
+				    <td id="restInfo_category">&nbsp;</td>
+				    <td id=""> </td>
+				  </tr>
+				  <tr>
+				  	<!-- 「 星星評分/當前訂餐人次 」先隱藏 -->
+				    <!-- <td id="restInfo_rating"><i class="fa fa-star"></i> 4.5 </td>
+				    <td id="restInfo_people"><i class="fa fa-user"></i> 集運28人</td> -->
+				    <td id="restInfo_discount"><i class="fa coin_icon"></i> 95折</td>
+				    <td id="restInfo_space"> </td>
+				    <td id="restInfo_distance"> </td>
+				    <td id="restInfo_perPrice">$ 195/人</td>
+				  </tr>
+				</table>
+			</div>
+		</div>
+		<!-- End header -->
+
+		<!-- Start filter -->
+		<div class="filter_area">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 filter_divider">
+						<div class="filter_name">
+						<div class="dropdown">
+						  <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">全部餐點</button>
+						  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						  	<a class="dropdown-item" href="#">套餐</a>
+						    <a class="dropdown-item" href="#">飯食</a>
+					        <a class="dropdown-item" href="#">麵類</a>
+					        <a class="dropdown-item" href="#">小菜</a>
+					        <a class="dropdown-item" href="#">湯品</a>
+						  </div>
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End filter -->
+
+		<!-- Start menu -->
+		<div class="menu_list">
+			<div class="container">
+				<div class="row dish">
+					<div class="col-4 ">						
+						<div class="dish_elements">
+							<div class="dish_pic" style="background-image: url(img/dish_pic2.png);"></div>
+						</div>
+					</div>
+					<div class="dish_info col-7">
+						<a href="dish_detail_input.html" style="text-decoration:none">
+							<div class="dish_name" >單人豪華套餐套餐套餐套餐套餐套餐套餐套餐</div>
+							<div class="dish_category" >&nbsp;</div>
+							<div class="dish_price" >$ 135</div>
+						</a>
+					</div>
+					<!-- <div class="col-1">
+						<div class="amount">
+							<div class="number">1</div>
+						</div>
+					</div> -->
+				</div>
+				<div class="row dish">
+					<div class="col-4 ">						
+						<div class="dish_elements">
+							<div class="dish_pic" style="background-image: url(img/dish_pic2.png);"></div>
+						</div>
+					</div>
+					<div class="dish_info col-7">
+						<a href="dish_detail_input.html" style="text-decoration:none">
+							<div class="dish_name" >單人豪華套餐套餐套餐套餐套餐套餐套餐套餐</div>
+							<div class="dish_category" >&nbsp;</div>
+							<div class="dish_price" >$ 135</div>
+						</a>
+					</div>
+					<div class="col-1">
+						<div class="amount">
+							<div class="number">1</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row dish">
+					<div class="col-4 ">						
+						<div class="dish_elements">
+							<div class="dish_pic" style="background-image: url(img/dish_pic2.png);"></div>
+						</div>
+					</div>
+					<div class="dish_info col-7">
+						<a href="dish_detail_input.html" style="text-decoration:none">
+							<div class="dish_name" >單人豪華套餐套餐套餐套餐套餐套餐套餐套餐</div>
+							<div class="dish_category" >&nbsp;</div>
+							<div class="dish_price" >$ 135</div>
+						</a>
+					</div>
+					<div class="col-1">
+						<div class="amount">
+							<div class="number">1</div>
+						</div>
+					</div>
+				</div>
+				<div class="row dish">
+					<div class="col-4 ">						
+						<div class="dish_elements">
+							<div class="dish_pic" style="background-image: url(img/dish_pic2.png);"></div>
+						</div>
+					</div>
+					<div class="dish_info col-7">
+						<a href="dish_detail_input.html" style="text-decoration:none">
+							<div class="dish_name" >單人豪華套餐套餐套餐套餐套餐套餐套餐套餐</div>
+							<div class="dish_category" >&nbsp;</div>
+							<div class="dish_price" >$ 135</div>
+						</a>
+					</div>
+					<!-- <div class="col-1">
+						<div class="amount">
+							<div class="number">1</div>
+						</div>
+					</div> -->
+				</div>
+				<div class="row dish">
+					<div class="col-4 ">						
+						<div class="dish_elements">
+							<div class="dish_pic" style="background-image: url(img/dish_pic2.png);"></div>
+						</div>
+					</div>
+					<div class="dish_info col-7">
+						<a href="dish_detail_input.html" style="text-decoration:none">
+							<div class="dish_name" >單人豪華套餐套餐套餐套餐套餐套餐套餐套餐</div>
+							<div class="dish_category" >&nbsp;</div>
+							<div class="dish_price" >$ 135</div>
+						</a>
+					</div>
+					<!-- <div class="col-1">
+						<div class="amount">
+							<div class="number">1</div>
+						</div>
+					</div> -->
+				</div>
+				<div class="row dish">
+					<div class="col-4 ">						
+						<div class="dish_elements">
+							<div class="dish_pic" style="background-image: url(img/dish_pic2.png);"></div>
+						</div>
+					</div>
+
+					<div class="dish_info col-7">
+						<a href="dish_detail.html" style="text-decoration:none">
+							<div class="dish_name" >茉莉奶綠芋圓</div>
+							<div class="dish_category" >&nbsp;</div>
+							<div class="dish_price" >$ 35</div>
+						</a>
+					</div>
+					<!-- <div class="col-1">
+						<div class="amount">
+							<div class="number">1</div>
+						</div>
+					</div> -->
+				</div>
+				<div class="row dish">
+					<div class="col-4 ">						
+						<div class="dish_elements">
+							<div class="dish_pic" style="background-image: url(img/dish_pic2.png);"></div>
+						</div>
+					</div>
+
+					<div class="dish_info col-7">
+						<a href="dish_detail.html" style="text-decoration:none">
+							<div class="dish_name" >茉莉奶綠芋圓</div>
+							<div class="dish_category" >&nbsp;</div>
+							<div class="dish_price" >$ 35</div>
+						</a>
+					</div>
+					<!-- <div class="col-1">
+						<div class="amount">
+							<div class="number">1</div>
+						</div>
+					</div> -->
+				</div>
+				
+			</div>
+		</div>
+		<!-- End menu -->
+
+		<!-- Start cart -->
+		
+		<div class="cart">
+			<div class="cart_icon" style="background-image: url(img/shopping-cart.png);"></div>
+			<div class="calc_total">
+				<div class="total_price">$ 348</div>
+				<div class="dish_number">小計 2 道餐點</div>
+			</div>
+			<a class="cart_href" href="cart.html" >
+			<div class="cart_arrow" style="background-image: url(img/cart_arrow.png);"></div>
+			</a>
+		</div>
+
+
+		<!-- End cart -->
+		<p style=" color:#9b9b9b;font-size: 10px;text-align: center; padding: 2vh 0vw 0vh 0vw;">您滑到底摟 ^_^</p>
+		<div class="space"></div>
+
+	</div>
+</body>
+<script src="js/bootstrap.bundle.min.js" type="text/javascript" ></script>
+</html>
