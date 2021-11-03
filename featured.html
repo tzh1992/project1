@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1, maximum-scale=1.2" >
+	<title>Food Car</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+	 <!-- =======jQuery載入========================================= -->
+    <script src="js/jquery.min.js"></script>
+	<link rel="stylesheet" href="css/featured.css">
+</head>
+<body>
+	<div class="wrapper">
+
+		<div class="main_bg"></div>
+
+		<!-- Start header -->
+		<div class="space"></div>
+
+		<div class="header">
+			<div class="title">精選午餐</div>
+		</div>
+		<!-- End header -->
+
+		<!-- Start filter -->
+		<div class="filter_area">
+			<div class="container">
+				<div class="row">
+					<div class="col-4 filter_divider">
+						<div class="filter1">
+							<div class="filter_name">
+								<div class="dropdown">
+								  <button class="dropdown-toggle wordlong" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">所有類型</button>
+								  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+								    <a class="dropdown-item" href="#">今日午餐</a>
+							         <a class="dropdown-item" href="#">今日晚餐</a>
+							         <a class="dropdown-item" href="#">今日晚餐</a>
+							         <a class="dropdown-item" href="#">當令水果</a>
+							         <a class="dropdown-item" href="#">下午茶</a>
+								  </div>
+								</div>
+
+								<!-- <select>
+									<option value="今日午餐">今日午餐</option>
+									<option value="今日晚餐">今日晚餐</option>
+									<option value="當令水果">當令水果</option>
+									<option value="下午茶">下午茶</option>
+								</select> -->
+							</div>
+						</div>
+					</div>
+					<div class="col-4 filter_divider">
+						<div class="filter2">
+							<div class="filter_name">
+								<div class="dropdown">
+								  <button class="dropdown-toggle wordlong" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">智邦A站</button>
+								  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+								    <a class="dropdown-item" href="#">智邦A站</a>
+							         <a class="dropdown-item" href="#">智邦B站</a>
+								  </div>
+								</div>
+								<!-- <select>
+									<option value="智邦A站">智邦A站</option>
+									<option value="智邦B站">智邦B站</option>
+								</select> -->
+							</div>
+						</div>
+					</div>
+					<div class="col-4 filter_divider">
+						<div class="filter3">
+							<div class="filter_name">
+								<div class="dropdown">
+								  <button class="dropdown-toggle wordlong" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">價格由低至高</button>
+								  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+								  	<a class="dropdown-item" href="#">最佳排序</a>
+								    <a class="dropdown-item" href="#">價格由低至高</a>
+							         <a class="dropdown-item" href="#">價格由高至低</a>
+								  </div>
+								</div>
+								<!-- <select>
+									<option value="最佳排序">最佳排序</option>
+									<option value="價格由低至高">價格由低至高</option>
+									<option value="價格由高至低">價格由高至低</option>
+								</select> -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End filter -->
+
+
+
+		<!-- Start restaurants -->
+			<div class="restaurant_list">
+				<div class="container">
+					<div class="row">
+						<div class="col-6 col-md-4">
+							<div class="restaurant" >
+								<a href="restaurant_menu.html" style="text-decoration:none">
+									<div class="restaurant_elements">
+										<div class="restaurant_pic" style="background-image: url(img/fried_rice.png);"></div>
+										<table id="restInfo">
+										  <tr>
+										    <td id="restInfo_name">香香炒飯</td>
+										    <td id="restInfo_perPrice">$ 95/人</td>
+										  </tr>
+										  <tr>
+										    <td id="restInfo_category"> </td>
+										    <td id="restInfo_distance"> </td>
+										  </tr>
+
+										  <!-- 「 星星評分/當前訂餐人次 」先隱藏 -->
+										  <tr>
+										    <td id="restInfo_statistics"><!-- <i class="fa fa-star"></i> 4.5 <i class="fa fa-user"></i> 8 --></td>
+										    <td id="restInfo_discount">95折</td>
+										  </tr>
+										</table>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-6 col-md-4">
+							<div class="restaurant">
+								<a href="restaurant_menu.html" style="text-decoration:none">
+									<div class="restaurant_elements">
+										<div class="restaurant_pic" style="background-image: url(img/curry.png);"></div>
+										<table id="restInfo">
+										  <tr>
+										    <td id="restInfo_name">初米咖啡</td>
+										    <td id="restInfo_perPrice">$ 95/人</td>
+										  </tr>
+										  <tr>
+										    <td id="restInfo_category"> </td>
+										    <td id="restInfo_distance"> </td>
+										  </tr>
+
+										  <!-- 「 星星評分/當前訂餐人次 」先隱藏 -->
+										  <tr>
+										    <td id="restInfo_statistics"><!-- <i class="fa fa-star"></i> 4.5 <i class="fa fa-user"></i> 8 --></td>
+										    <td id="restInfo_discount">95折</td>
+										  </tr>
+										</table>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-6 col-md-4">
+							<div class="restaurant">
+								<a href="restaurant_menu.html" style="text-decoration:none">
+									<div class="restaurant_elements">
+										<div class="restaurant_pic" style="background-image: url(img/noodles.png);"></div>
+										<table id="restInfo">
+										  <tr>
+										    <td id="restInfo_name">越記越南麵食館</td>
+										    <td id="restInfo_perPrice">$ 95/人</td>
+										  </tr>
+										  <tr>
+										    <td id="restInfo_category"> </td>
+										    <td id="restInfo_distance"> </td>
+										  </tr>
+
+										  <!-- 「 星星評分/當前訂餐人次 」先隱藏 -->
+										  <tr>
+										    <td id="restInfo_statistics"><!-- <i class="fa fa-star"></i> 4.5 <i class="fa fa-user"></i> 8 --></td>
+										    <td id="restInfo_discount">95折</td>
+										  </tr>
+										</table>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-6 col-md-4">
+							<div class="restaurant">
+								<a href="restaurant_menu.html" style="text-decoration:none">
+									<div class="restaurant_elements">
+										<div class="restaurant_pic" style="background-image: url(img/pizza.png);"></div>
+										<table id="restInfo">
+										  <tr>
+										    <td id="restInfo_name">JAPOLI 義大利餐酒館</td>
+										    <td id="restInfo_perPrice">$ 95/人</td>
+										  </tr>
+										  <tr>
+										    <td id="restInfo_category"> </td>
+										    <td id="restInfo_distance"> </td>
+										  </tr>
+
+										  <!-- 「 星星評分/當前訂餐人次 」先隱藏 -->
+										  <tr>
+										    <td id="restInfo_statistics"><!-- <i class="fa fa-star"></i> 4.5 <i class="fa fa-user"></i> 8 --></td>
+										    <td id="restInfo_discount">95折</td>
+										  </tr>
+										</table>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-6 col-md-4">
+							<div class="restaurant">
+								<a href="restaurant_menu.html" style="text-decoration:none">
+									<div class="restaurant_elements">
+										<div class="restaurant_pic" style="background-image: url(img/fried_rice.png);"></div>
+										<table id="restInfo">
+										  <tr>
+										    <td id="restInfo_name">香香炒飯</td>
+										    <td id="restInfo_perPrice">$ 95/人</td>
+										  </tr>
+										  <tr>
+										    <td id="restInfo_category"> </td>
+										    <td id="restInfo_distance"> </td>
+										  </tr>
+
+										  <!-- 「 星星評分/當前訂餐人次 」先隱藏 -->
+										  <tr>
+										    <td id="restInfo_statistics"><!-- <i class="fa fa-star"></i> 4.5 <i class="fa fa-user"></i> 8 --></td>
+										    <td id="restInfo_discount">95折</td>
+										  </tr>
+										</table>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-6 col-md-4">
+							<div class="restaurant">
+								<a href="restaurant_menu.html" style="text-decoration:none">
+									<div class="restaurant_elements">
+										<div class="restaurant_pic" style="background-image: url(img/curry.png);"></div>
+										<table id="restInfo">
+										  <tr>
+										    <td id="restInfo_name">初米咖啡</td>
+										    <td id="restInfo_perPrice">$ 95/人</td>
+										  </tr>
+										  <tr>
+										    <td id="restInfo_category"> </td>
+										    <td id="restInfo_distance"> </td>
+										  </tr>
+
+										  <!-- 「 星星評分/當前訂餐人次 」先隱藏 -->
+										  <tr>
+										    <td id="restInfo_statistics"><!-- <i class="fa fa-star"></i> 4.5 <i class="fa fa-user"></i> 8 --></td>
+										    <td id="restInfo_discount">95折</td>
+										  </tr>
+										</table>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-6 col-md-4">
+							<div class="restaurant">
+								<a href="restaurant_menu.html" style="text-decoration:none">
+									<div class="restaurant_elements">
+										<div class="restaurant_pic" style="background-image: url(img/noodles.png);"></div>
+										<table id="restInfo">
+										  <tr>
+										    <td id="restInfo_name">越記越南麵食館</td>
+										    <td id="restInfo_perPrice">$ 95/人</td>
+										  </tr>
+										  <tr>
+										    <td id="restInfo_category"> </td>
+										    <td id="restInfo_distance"> </td>
+										  </tr>
+
+										  <!-- 「 星星評分/當前訂餐人次 」先隱藏 -->
+										  <tr>
+										    <td id="restInfo_statistics"><!-- <i class="fa fa-star"></i> 4.5 <i class="fa fa-user"></i> 8 --></td>
+										    <td id="restInfo_discount">95折</td>
+										  </tr>
+										</table>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-6 col-md-4">
+							<div class="restaurant">
+								<a href="restaurant_menu.html" style="text-decoration:none">
+									<div class="restaurant_elements">
+										<div class="restaurant_pic" style="background-image: url(img/pizza.png);"></div>
+										<table id="restInfo">
+										  <tr>
+										    <td id="restInfo_name">JAPOLI 義大利餐酒館</td>
+										    <td id="restInfo_perPrice">$ 95/人</td>
+										  </tr>
+										  <tr>
+										    <td id="restInfo_category"> </td>
+										    <td id="restInfo_distance"> </td>
+										  </tr>
+
+										  <!-- 「 星星評分/當前訂餐人次 」先隱藏 -->
+										  <tr>
+										    <td id="restInfo_statistics"><!-- <i class="fa fa-star"></i> 4.5 <i class="fa fa-user"></i> 8 --></td>
+										    <td id="restInfo_discount">95折</td>
+										  </tr>
+										</table>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End restaurants -->
+			<p style=" color:#9b9b9b;font-size: 10px;text-align: center; padding: 2vh 0vw 0vh 0vw;">您滑到底摟 ^_^</p>
+
+
+		<!-- End order box -->
+
+
+
+
+
+		
+	</div>
+
+</body>
+<script src="js/bootstrap.bundle.min.js" type="text/javascript" ></script>
+</html>
