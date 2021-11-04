@@ -73,6 +73,7 @@ button,html
 }
 .search-bar{
 	height: 2.2rem;
+	border: #ddd 1px solid;
 
 }
 #search-icon {
@@ -95,14 +96,16 @@ button,html
 	border-radius: 7px;
 	height: 14px;
 	width: 14px;
-	border: #fff 1px solid;
+	border: #bbb 1px solid;
 	line-height: 14px;
 	text-align: center;
 }
 .wording{
 	display: inline-block;
+	color: #000;
 	text-decoration: underline;
 	margin-left: 2px;
+	
 }
 .btn{
 	display: inline-block;
