@@ -47,7 +47,7 @@ button,html
 	color: #ccc;
 	background-color: #fff;
 	background-clip: padding-box;
-	border: 0px solid #ced4da;
+	border: 1px solid #ced4da;
 	border-radius: 2rem;
   /*transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;*/
 }
@@ -73,7 +73,6 @@ button,html
 }
 .search-bar{
 	height: 2.2rem;
-	border: #ddd 1px solid;
 
 }
 #search-icon {
@@ -86,7 +85,7 @@ button,html
 .notice{
 	position: absolute;
 	bottom: 10px;
-	color: #fff;
+	color: #444;
 	font-size: 8px !important;
 	font-weight: 100;
     padding-left: 10px;
@@ -96,13 +95,13 @@ button,html
 	border-radius: 7px;
 	height: 14px;
 	width: 14px;
-	border: #bbb 1px solid;
+	border: #444 1px solid;
 	line-height: 14px;
 	text-align: center;
 }
 .wording{
 	display: inline-block;
-	color: #000;
+	color: #444;
 	text-decoration: underline;
 	margin-left: 2px;
 	
